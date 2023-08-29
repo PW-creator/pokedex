@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .header-menu {
+        gap: 12px;
+    }
+
+    .header-menu a {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+}

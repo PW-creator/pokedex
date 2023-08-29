@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokedex - Davi Williams</title>
+
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" >
+</head>
+
+<body>
+    <header class="header-bg fadeIn" aria-label="Cabeçalho">
+        <div class="header container">
+            <a href="index.html" class="logo">
+                <img src="assets/imgs/Pokemon_Go_Locator_icon-icons.com_67521.svg" width="50" height="50" alt="Logo Pokeball">
+            </a>
+            <i>Pokedex - Davi Williams</i><br>
+            <a href="index.html"><img src="/assets/imgs/1491254395-returnbackredoarrow_82934.svg" alt="Seta de voltar">Voltar</a>
+        </div>
+    </header>
+
+    <main class="content" aria-label="Detalhes do Pokémon">
+        <section id="loadPokemon" aria-label="Pokemon"></section>
+    </main>
+
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/infospoke.js"></script>
+</body>
+
+</html>
